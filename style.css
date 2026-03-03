@@ -1,23 +1,25 @@
 :root {
-    /* Nebula Space Palette */
-    --primary-color: #d946ef;
-    /* Electric Magenta */
-    --primary-hover: #c026d3;
-    --secondary-color: #1e1b4b;
-    /* Deep Indigo Space */
-    --accent-color: #8b5cf6;
-    /* Celestial Purple */
-    --bg-color: #030712;
-    /* Absolute Dark */
-    --card-bg: rgba(30, 27, 75, 0.7);
-    /* Translucent Indigo */
-    --text-main: #f8fafc;
-    --text-secondary: #c084fc;
-    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
-    --shadow-md: 0 4px 6px -1px rgba(217, 70, 239, 0.2), 0 2px 4px -2px rgba(217, 70, 239, 0.2);
-    --shadow-lg: 0 10px 15px -3px rgba(139, 92, 246, 0.2), 0 4px 6px -4px rgba(139, 92, 246, 0.2);
-    --radius: 1.25rem;
-    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Idol Stage Palette */
+    --primary-color: #ff006e;
+    /* Neon Pink */
+    --primary-hover: #fb5607;
+    /* Vibrant Orange */
+    --secondary-color: #3a0ca3;
+    /* Deep Stage Purple */
+    --accent-color: #4cc9f0;
+    /* Bright Stage Cyan */
+    --bg-color: #050510;
+    /* Dark Stage Floor */
+    --card-bg: rgba(58, 12, 163, 0.4);
+    /* Translucent Stage Purple */
+    --text-main: #ffffff;
+    --text-secondary: #ffbe0b;
+    /* Golden Spotlight */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+    --shadow-md: 0 4px 10px rgba(255, 0, 110, 0.3);
+    --shadow-lg: 0 0 20px rgba(76, 201, 240, 0.3);
+    --radius: 1.5rem;
+    --transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 * {
@@ -34,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 2rem 1rem;
-    background-image: linear-gradient(rgba(3, 7, 18, 0.6), rgba(3, 7, 18, 0.6)), url('nebula_background.png');
+    background-image: linear-gradient(rgba(5, 5, 16, 0.4), rgba(5, 5, 16, 0.4)), url('idol_background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -62,8 +64,8 @@ h1 {
     color: var(--primary-color);
     letter-spacing: -0.025em;
     margin-bottom: 0.5rem;
-    text-shadow: 0 0 20px rgba(217, 70, 239, 0.5);
-    background: linear-gradient(to bottom, #f0abfc, #d946ef);
+    text-shadow: 0 0 30px rgba(255, 0, 110, 0.6);
+    background: linear-gradient(to bottom, #ffbe0b, #ff006e);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,7 +89,7 @@ h1 {
     flex-direction: column;
     gap: 1rem;
     transition: var(--transition);
-    border: 1px solid rgba(217, 70, 239, 0.2);
+    border: 1px solid rgba(255, 0, 110, 0.3);
 }
 
 .input-area:focus-within {
